@@ -1,0 +1,31 @@
+/*class selector */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+
+    background-image: linear-gradient(white, orange, yellow);
+    height: 150px;
+    line-height: 150px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+
+#header-nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+
